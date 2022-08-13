@@ -33,9 +33,7 @@
             class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 hover:text-blue-500"
             >User name</label
           >
-          <button class="py-2 font-bold" @click="printName()">
-            print
-          </button>
+          <button class="py-2 font-bold" @click="printName()">print</button>
 
           <input
             id="summoner_name"
@@ -80,12 +78,12 @@ export default {
     const userName = ref('a')
     function printName() {
       console.log(userName.value)
-      console.log("YEAHBUDDY")
+      console.log("DuKleinerHS")
     }
     return {
       userName,
-      printName,
+      printName
     }
-  },
+  }
 }
 </script>
